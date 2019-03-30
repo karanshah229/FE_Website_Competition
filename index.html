@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angelina Jolie</title>
+    <link rel="stylesheet" href="/styles.css">
+    <!--FAVICON--->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#557A95">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#557A95">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    <!-----------------MODAL----------------->
+    <div id="modal-container" style="display:none">
+        <div id="modal-wrapper">
+            <div id="modal-heading"><span id="heading-text">Hey Ryan! How are you doing?</span><span id="heading-close-button" onclick="modal_close();">&times;</span></div>
+            <div id="modal-body">
+                <p id="first-para">I'm Karan from FE-IT. Sorry, I couldn't make it to FE Website COmpetition. But if I had made it, then the winner wouldn't have really won, right? :P</p>
+                <p id="second-para">This website is made of HTML, CSS, Javascript and Jquery only. No third party frameworks or libraries. That to say, I know most of them. Continuing, this website is not responsive, only for the 'lack of time' since I'm doing an internship.</p>
+                <p id="second-para-a">I made this as portfolio of Angelina Jolie, well, because I really like her, and for the side fact that my portfolio isn't really so strong. :D</p>
+                <p id="third-para">I know you're a web developer too and just wanted to say 'HI', but a plain 'HI' would leave no effect, right? :P Hence, I made this website.</p>
+                <p id="fourth-para">Would love to get your thoughts on this project. Do reply me via email.</p>
+                <p id="fifth-para">Enough talk, now go ahead and enjoy this website.</p>
+            </div>
+        </div>
+    </div>
+    <!-----------------NAV-BAR----------------->
+    <div id="nav-bar" class="nav-bar">
+        <div id="nav-icon" class="nav-icon">
+            <div id="nav-icon-div-1" class="nav-icon-div-1"></div>
+            <div id="nav-icon-div-2" class="nav-icon-div-2"></div>
+        </div>
+        <div id="links">
+            <div class="home" onclick="smooth_scroll('layer1')">Home</div>
+            <div class="about-us" onclick="smooth_scroll('layer2')">About</div>
+            <div class="message" onclick="smooth_scroll('layer3')">From Jolie</div>
+            <div class="my-works" onclick="smooth_scroll('layer4')">Reel & More</div>
+            <div class="photos-only" onclick="smooth_scroll('layer5')">Photoshoot</div>
+            <div class="contact-us" onclick="smooth_scroll('layer6')">Contact</div>
+        </div>
+        <div id="side-nav-bar">
+            <div class="home" onclick="smooth_scroll('layer1')">Home</div>
+            <div class="about-us" onclick="smooth_scroll('layer2')">About</div>
+            <div class="message" onclick="smooth_scroll('layer3')">From Jolie</div>
+            <div class="my-works" onclick="smooth_scroll('layer4')">Reel & More</div>
+            <div class="photos-only" onclick="smooth_scroll('layer5')">Photoshoot</div>
+            <div class="contact-us" onclick="smooth_scroll('layer6')">Contact</div>
+        </div>
+    </div>
+    <!-----------------LAYER-1----------------->
+    <div id="layer1">
+        <div id="layer-1-header-wrapper">
+            <div id="layer-1-header">ANGELINA JOLIE</div>
+        </div>
+    </div>
+    <!-----------------LAYER-2----------------->
+    <div id="layer2">
+        <div id="about">
+            <div id="about-img-div"><img src="/img/layer-bg-img/about.jpg" alt="About" align="left" id="about-img"></div>
+            <div id="about-heading">About</div>
+            <div id="about-content">
+                    Angelina Jolie is an American actress, filmmaker, and humanitarian. She has received an Academy Award, two Screen Actors Guild Awards, and three Golden Globe Awards, and has been cited as Hollywood's highest-paid actress. Jolie made her screen debut as a child alongside her father, Jon Voight, in Lookin' to Get Out (1982). Her film career began in earnest a decade later with the low-budget production Cyborg 2 (1993), followed by her first leading role in a major film, Hackers (1995). She starred in the critically acclaimed biographical cable films George Wallace (1997) and Gia (1998), and won an Academy Award for Best Supporting Actress for her performance in the drama Girl, Interrupted (1999).
+            </div>
+        </div>
+    </div>
+    <!-----------------LAYER-3----------------->
+    <div id="layer3">
+        <div id="msg-from-jolie-div"><img src="/img/layer-bg-img/msg.jpg" alt="Message from Angelina" align="left" id="msg-from-jolie-img"></div>
+        <div id="msg-from-jolie-heading">Fight Back!</div>
+        <div id="msg-from-jolie-content">
+            Children, I need you. We all need you. We adults... We are a little lost these days. We want you to think that we have it all under control, that it will all be fine. And it will be. But not because we know better or just because we love you. It's because we are betting on you. The world has changed so much in the last fifty years. In many ways it's a world you will understand better how to live in far better than we do. The internet and mobile phones... They were not around when I was your age. You can go home tonight and you can play games with kids your age in other countries. You can ask them about their lives. You can use your phone to translate other language. You have the world literally at your fingertips. But what will you do with it? This means that you can grow up to be citizens who together can complete the work that my generation will leave unfinshed and fight for universal human rights for all children.
+        </div>
+    </div>
+    <!-----------------LAYER-4----------------->
+    <div id="layer4">
+        <div id="reel-and-more">
+            <div id="reel-and-more-heading">Reel and More!</div>
+            <div id="reel-and-more-content">
+                <div id="lightbox-wrapper">
+                    <div id="video-enlarge">
+                        <iframe height="315" width="530" src="https://www.youtube.com/embed/CZ0B22z22pI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" id="video-enlarge-video"></iframe>
+                        <button type="button" id="video-enlarge-close-button">&times;</button>
+                    </div>
+                </div>
+                <div id="video-wrapper">
+                    <div id="video1" onclick="lightbox(this, 'wanted')">
+                        <video height="200px" width="280px" controlsList="nodownload" controlsList="nofullscreen nodownload noremoteplayback" poster="/img/posters/Landscape/wanted.jpg" preload="metadata">
+                            <source src="https://www.youtube.com/embed/edpEspHOeVU?rel=0&amp;controls=0&amp;showinfo=0" type="video/mp4">
+                        </video>
+                        <button type="button" id="wanted-button">&#9654;</button>
+                    </div>
+                    <div id="video2" onclick="lightbox(this, 'smith')">
+                        <video height="200px" width="280px" poster="/img/posters/Landscape/mr-and-mrs-smith.jpg" controlsList="nofullscreen nodownload noremoteplayback" preload="metadata">
+                            <source src="https://www.youtube.com/embed/CZ0B22z22pI?rel=0&amp;controls=0&amp;showinfo=0" type="video/mp4">
+                        </video>
+                        <button type="button" id="mr-and-mrs-smith-button">&#9654;</button>
+                    </div>
+                    <div id="video3" onclick="lightbox(this, 'tourist')">
+                        <video height="200px" width="280px" poster="/img/posters/Landscape/tourist.jpg" controlsList="nofullscreen nodownload noremoteplayback" preload="metadata">
+                            <source src="https://www.youtube.com/embed/5XtbLezJtMg?rel=0&amp;controls=0&amp;showinfo=0" type="video/mp4">
+                        </video>
+                        <button type="button" id="tourist-button">&#9654;</button>
+                    </div>
+                    <div id="video4" onclick="lightbox(this, 'salt')">
+                        <video height="200px" width="280px" poster="/img/posters/Landscape/salt.jpg" controlsList="nofullscreen nodownload noremoteplayback" preload="metadata">
+                            <source src="https://www.youtube.com/embed/QZ40WlshNwU?rel=0&amp;controls=0&amp;showinfo=0" type="video/mp4">
+                        </video>
+                        <button type="button" id="salt-button">&#9654;</button>
+                    </div>
+                </div>
+                <div id="praise-for-jolie">
+                    <blockquote>Angelina Jolie is just an extremely talented, generous, nice person to be around and to work with. </blockquote><p class="blockquote-source">- Domhnall Gleeson</p>
+                    <blockquote>Angelina Jolie was always a Method actress. She'd been nominated for Golden Globes before she ever did 'Tomb Raider.'</blockquote><p class="blockquote-source">- Megan Fox</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------LAYER-5----------------->
+    <div id="layer5">
+        <div id="layer-5-header-wrapper">
+            <div id="layer-5-header">Let's Just do Photos!</div>
+        </div>
+        <div id="layer-5-content-wrapper">
+            <div id="layer-5-content">
+                <span id="left-side">
+                    <img src="/img/layer-bg-img/layer5/left-side.jpg" alt="Let's Just do Photos" align="left" id="photos-left">
+                </span>
+                <span id="middle-side">
+                    <div><img src="/img/layer-bg-img/layer5/right-side-top.jpg" alt="Let's Just do Photos" align="top" id="photos-middle-1"></div>
+                    <div><img src="/img/layer-bg-img/layer5/right-side-bottom-5.jpg" alt="Let's Just do Photos" align="bottom" width="200vw" id="photos-middle-2"></div>
+                </span>
+                <span id="right-side">
+                    <img src="/img/layer-bg-img/layer5/right-side-bottom-3.jpg" alt="Let's Just do Photos" align="top" id="photos-right">
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-----------------LAYER-5----------------->
+    <div id="layer6">
+        <div id="contact-us-img-div"><img src="/img/layer-bg-img/contact-us.jpg" alt="Contact Me!" align="right"></div>
+        <div id="layer-6-header-wrapper">
+            <div id="layer-6-header">Contact Me</div>
+        </div>
+        <div id="layer-6-content-about">
+            <p>I'm a professional web developer. Have a great knack for programming and love to solve code puzzles. Really like math but not too good at it.</p>
+            <p>Open to invites to deliver talks and vlogs.</p>
+            <p>Do hit me up on | <a href="https://www.facebook.com/karanshah229" target="_blank">Facebook</a> | <a href="https://twitter.com/karanshah229" target="_blank">Twitter</a> | <a href="https://github.com/karanshah229" target="_blank">Github</a> | for collaborations and projects, but also for just casual talks.</p>
+        </div>
+        <div id="layer-6-content-email">
+            <form>
+                <h1>Message Me</h1>
+                <div id="form-name">Name</div>
+                <input type="text" name="name" id="name">
+                <div id="form-phone">Phone</div>
+                <input type="number" name="phone" id="phone">
+                <div id="form-email">Email</div>
+                <input type="email" name="email" id="email">
+                <div id="form-message">Message</div>
+                <input type="text" name="message" id="message"><br>
+                <button type="button" onclick="alert('Message Sent');">Message</button>
+            </form>
+        </div>
+        <div id="copyright-footer"><span id="copyright-symbol">&copy;</span><span id="copyright-text">All rights reserved 2018-2019</span></div>
+    </div>
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/global.js"></script>
+</body>
+</html>
