@@ -1,4 +1,4 @@
-# FE_Website_Competition
+# FE Website Competition
 
 Actual Website: 
 http://fe-website-competition.epizy.com
